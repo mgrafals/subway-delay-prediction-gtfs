@@ -5,10 +5,9 @@ This project uses MTA's GTFS static and real-time feeds to build a machine learn
 ## Highlights
 - Integrated GTFS static & real-time data for subway delay prediction
 - Built and evaluated Random Forest, GBT, and LSTM models
-- Best model (LSTM) achieved:
-  - R² = 0.159
-  - RMSE = 1.404
-  - MAE = 0.786
+- Best model (GBT) achieved:
+  - RMSE = 1.434
+  - MAE = 0.804
 
 ## Technologies
 - Python, PySpark, Databricks, TensorFlow, Scikit-learn
